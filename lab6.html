@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="utf-8">
+		<title>Fronted Task №7</title>
+		<link rel=stylesheet type="text/css" href="lab6styles.css"/>
+	</head>
+	<body>
+		<div class="block">
+			<button onclick="LeftPanel('left')">Левая колонка</button>
+			<button onclick="BothPanel('both')">Обе две</button>
+			<button onclick="RightPanel('right')">Правая колонка</button>
+		
+		
+
+			<div id="both" style="display:block;">
+				<div class="cat"> 
+					<img class ="img" src="cat.jpg" alt="cat" >
+				</div>
+				<div class="dog"> 
+					<img class ="img" src="dog.jpg" alt="dog" >
+				</div>
+			</div>
+
+		
+		
+
+			<div id="left" style="display:none;">
+				<div class="catPanel"> 
+					<img src="cat.jpg" alt="cat">
+					<div class="imgPanelLeft"></div>
+				</div>				
+			</div>
+
+		
+
+			<div id="right" style="display:none;">
+				<div class="dogPanel">
+					<img src="dog.jpg" alt="dog" style="height: 354px;">
+					<div class="imgPanelRight"></div>
+				</div>
+			</div>
+
+		
+		</div>
+		<script src="lab6.js"></script>
+	</body>
+</html>
